@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI CALCULATOR</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    
+        <h1>BMI CALCULATOR</h1>
+        <div class="container">
+            <input class="front-control" type="text" id="height" placeholder="height">
+            <input class="front-control" type="text" id="weight" placeholder=" weight">
+            <br> <br>
+            <button id="submit">check</button>
+            
+           
+            <div class="box">
+            <h4>YOUR BMI IS</h4>
+            
+            <div id="result">00.00</div>
+            <p class="comment"></p>
+        
+            </div>
+             </div>
+            
+    <br>
+  
+    
+        <section class="bmi-scale">
+            <div style="--color: var(--underweight)">
+              <h4>Underweight</h4>
+             
+            </div>
+    
+            <div style="--color: var(--normal)">
+              <h4>Normal</h4>
+             
+            </div>
+    
+            <div style="--color: var(--overweight)">
+              <h4>Overweight</h4>
+             
+            </div>
+    
+            <div style="--color: var(--obesity)">
+              <h4>Obesity</h4>
+              
+            </div>
+        </section>
+   
+    
+   <script src="./js.js"></script>
+    
+</body>
+</html>
